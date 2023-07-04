@@ -1,0 +1,102 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.search-input {
+  padding: 10px;
+  padding-left: 40px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png');
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: 20px 20px;
+}
+.search-input:focus {
+  outline: none;
+  border-color: #4d90fe;
+  box-shadow: 0 0 5px rgba(77, 144, 254, 0.5);
+}
+.category-heading {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+}
+.li-element-op {
+  margin: initial;
+  list-style-type: none;
+}
+.category-button-element {
+  border: none;
+  background-color: transparent;
+  color: grey;
+  font-weight: 500;
+  padding-left: 12px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  float: inline-start;
+}
+
+.rating-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px;
+}
+.category-button-element:hover {
+  color: #ccc;
+  cursor: pointer;
+}
+.r-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.rating-image {
+  background: transparent;
+  height: 16px;
+}
+.p-text {
+  color: grey;
+  font-size: 14px;
+}
+.rating-button {
+  border: none;
+  background-color: transparent;
+  margin-right: 5px;
+}
+.rating-button:hover {
+  cursor: pointer;
+}
+.filter-button {
+  background-color: #f1f5f9;
+  color: #0967d2;
+  border: 1px solid #0967d2;
+  border-radius: 8px;
+  padding: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
